@@ -15,8 +15,8 @@ class MNISTModel(BaseModel):
         print("Benchmarking MNIST model...")
         (_, _), (test_images, test_labels) = tf.keras.datasets.mnist.load_data()
 
-        test_images_sample = test_images
-        test_labels_sample = test_labels
+        test_images_sample = test_images[:100]
+        test_labels_sample = test_labels[:100]
 
         def preprocess_function(images):
             # Ensure the input is a numpy array

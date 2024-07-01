@@ -38,7 +38,6 @@ from tqdm import tqdm
 import os
 import tensorflow as tf
 import logging
-from tabulate import tabulate
 
 class Benchmarker:
     """
