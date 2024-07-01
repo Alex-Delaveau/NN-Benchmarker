@@ -15,5 +15,5 @@ __pycache__/
 .egg-info/
 
 *.keras
-*.tflite`
+*.tflite
 models/cloudnet/data/*
